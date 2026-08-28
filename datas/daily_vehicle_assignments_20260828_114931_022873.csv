@@ -1,0 +1,2 @@
+﻿assignment_date,employee_id,assignment_status,vehicle_id,vehicle_display_name,cargo_set_count,cargo_set_weight_kg,cargo_weight_kg,vehicle_empty_weight_kg,total_vehicle_weight_kg,payload_kg,project_max_payload_kg,tire_pressure_bar,battery_usable_kwh,max_dc_charge_kw,default_soc_pct,weather_type,ambient_temp_C,hvac_mode,hvac_power_kw
+2026-08-28,12345678,ASSIGNED,VOLVO_05,Volvo FH Electric 05호차,0,10.0,0.0,16500.0,16500.0,0.0,23500,8.9,460,350,90,hot,37.7,COOLING,4.98

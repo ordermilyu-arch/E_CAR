@@ -1,0 +1,2 @@
+﻿assignment_date,employee_id,assignment_status,vehicle_id,vehicle_display_name,cargo_set_count,cargo_set_weight_kg,cargo_weight_kg,vehicle_empty_weight_kg,total_vehicle_weight_kg,battery_soc_pct,payload_kg,project_max_payload_kg,tire_pressure_bar,battery_usable_kwh,max_dc_charge_kw,default_soc_pct,weather_type,ambient_temp_C,hvac_mode,hvac_power_kw
+2026-08-28,58756876,ASSIGNED,VOLVO_08,8호차 (Volvo FH),4,10.0,40.0,16500.0,16540.0,85.0,40.0,23500,8.8,460,350,90,cold,-0.9,HEATING,3.27

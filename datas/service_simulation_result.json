@@ -1,0 +1,144 @@
+{
+  "assignment": {
+    "employee_id": "12345678",
+    "assignment_date": "2026-08-28",
+    "seed": 3560382759065967694,
+    "vehicle": {
+      "vehicle_id": "VOLVO_10",
+      "display_name": "Volvo FH Electric 10호차",
+      "model": "Volvo FH Electric",
+      "battery_capacity_gross_kwh": 540.0,
+      "battery_usable_kwh": 460.0,
+      "max_dc_charge_kw": 350.0,
+      "motor_power_kw": "490",
+      "project_combination_empty_weight_kg": "16500",
+      "project_max_payload_kg": 23500.0,
+      "default_soc_pct": 90.0,
+      "tire_pressure_bar": 9.0,
+      "tire_reference_bar": "9.0",
+      "vehicle_status": "NORMAL",
+      "spec_note": "동일 FH Electric 프로젝트 차량. 차량 간 차이는 tire_pressure_bar만 사용.",
+      "volvo_spec_source": "https://www.volvotrucks.kr/ko-kr/trucks/electric/volvo-fh-electric.html",
+      "volvo_road_test_source": "https://www.volvotrucks.com/en-en/news-stories/stories/2022/jan/volvo-fh-electric-excel-in-first-road-test.html",
+      "tractor_weight_reference_source": "https://www.autoweek.nl/kentekencheck/25-BZB-1/",
+      "trailer_weight_reference_source": "https://fliegl-trailer.com/fileadmin/presse/2023/10/fliegl-sds-390/gahr_en.pdf",
+      "tire_pressure_reference_source": "https://business.michelin.co.uk/tyres/michelin-x-line-energy-z2-d2-22-5"
+    },
+    "payload_set_count": 3,
+    "payload_per_set_kg": 10,
+    "payload_kg": 30,
+    "weather": {
+      "weather_type": "normal",
+      "ambient_temp_C": 24.9,
+      "hvac_mode": "OFF",
+      "hvac_power_kw": 0.0
+    }
+  },
+  "predicted_kwh_per_100km": 83.00264298021041,
+  "simulation": {
+    "feasible": true,
+    "legs": [
+      {
+        "구간": "부산항 신선대 컨테이너터미널 → 양산휴게소",
+        "거리_km": 31.0,
+        "소비에너지_kWh": 25.730819323865227,
+        "도착_SOC_pct": 84.40634362524669
+      },
+      {
+        "구간": "양산휴게소 → 언양휴게소",
+        "거리_km": 33.0,
+        "소비에너지_kWh": 27.390872183469437,
+        "도착_SOC_pct": 78.4518061940577
+      },
+      {
+        "구간": "언양휴게소 → 경산휴게소",
+        "거리_km": 67.0,
+        "소비에너지_kWh": 55.61177079674098,
+        "도착_SOC_pct": 66.36229080346182
+      },
+      {
+        "구간": "경산휴게소 → 칠곡휴게소",
+        "거리_km": 47.0,
+        "소비에너지_kWh": 39.011242200698895,
+        "도착_SOC_pct": 57.881585977222926
+      },
+      {
+        "구간": "칠곡휴게소 → 김천휴게소",
+        "거리_km": 36.0,
+        "소비에너지_kWh": 29.88095147287575,
+        "도착_SOC_pct": 51.38572696138037
+      },
+      {
+        "구간": "김천휴게소 → 추풍령휴게소",
+        "거리_km": 19.0,
+        "소비에너지_kWh": 15.770502166239979,
+        "도착_SOC_pct": 47.95735692524124
+      },
+      {
+        "구간": "추풍령휴게소 → 황간휴게소",
+        "거리_km": 17.0,
+        "소비에너지_kWh": 14.110449306635768,
+        "도착_SOC_pct": 44.88986794553782
+      },
+      {
+        "구간": "황간휴게소 → 옥천휴게소",
+        "거리_km": 27.0,
+        "소비에너지_kWh": 22.410713604656813,
+        "도착_SOC_pct": 40.0179736836559
+      },
+      {
+        "구간": "옥천휴게소 → 신탄진휴게소",
+        "거리_km": 24.0,
+        "소비에너지_kWh": 19.9206343152505,
+        "도착_SOC_pct": 35.687401006427535
+      },
+      {
+        "구간": "신탄진휴게소 → 죽암휴게소",
+        "거리_km": 9.0,
+        "소비에너지_kWh": 7.470237868218938,
+        "도착_SOC_pct": 34.06343625246689
+      },
+      {
+        "구간": "죽암휴게소 → 청주휴게소",
+        "거리_km": 27.0,
+        "소비에너지_kWh": 22.410713604656813,
+        "도착_SOC_pct": 29.19154199058498
+      },
+      {
+        "구간": "청주휴게소 → 천안삼거리휴게소",
+        "거리_km": 19.0,
+        "소비에너지_kWh": 15.770502166239979,
+        "도착_SOC_pct": 25.763171954445852
+      },
+      {
+        "구간": "천안삼거리휴게소 → 입장거봉포도휴게소",
+        "거리_km": 18.0,
+        "소비에너지_kWh": 14.940475736437875,
+        "도착_SOC_pct": 22.515242446524574
+      },
+      {
+        "구간": "입장거봉포도휴게소 → 안성휴게소",
+        "거리_km": 18.0,
+        "소비에너지_kWh": 14.940475736437875,
+        "도착_SOC_pct": 19.267312938603297
+      },
+      {
+        "구간": "안성휴게소 → 한진인천컨테이너터미널(HJIT)",
+        "거리_km": 73.60000000000002,
+        "소비에너지_kWh": 61.08994523343488,
+        "도착_SOC_pct": 86.71957712316633
+      }
+    ],
+    "charges": [
+      {
+        "휴게소": "안성휴게소",
+        "충전량_kWh": 403.6634353069835,
+        "충전출력_kW": 260.0,
+        "충전시간_분": 93.15310045545773,
+        "정차시간포함_분": 100.15310045545773
+      }
+    ],
+    "arrival_time": "2026-08-28 16:19:30.786027",
+    "total_minutes": 379.51310044999997
+  }
+}

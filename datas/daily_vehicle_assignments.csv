@@ -1,0 +1,2 @@
+﻿assignment_date,employee_id,assignment_status,vehicle_id,vehicle_display_name,payload_kg,project_max_payload_kg,tire_pressure_bar,battery_usable_kwh,max_dc_charge_kw,default_soc_pct,weather_type,ambient_temp_C,hvac_mode,hvac_power_kw
+2026-08-28,12345678,ASSIGNED,VOLVO_10,Volvo FH Electric 10호차,30.0,23500,9.0,460,350,90,normal,24.9,OFF,0.0
