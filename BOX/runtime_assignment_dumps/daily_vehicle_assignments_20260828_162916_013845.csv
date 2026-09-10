@@ -1,0 +1,4 @@
+﻿assignment_date,employee_id,assignment_status,vehicle_id,vehicle_display_name,cargo_set_count,cargo_set_weight_kg,cargo_weight_kg,vehicle_empty_weight_kg,total_vehicle_weight_kg,battery_soc_pct,payload_kg,project_max_payload_kg,tire_pressure_bar,battery_usable_kwh,max_dc_charge_kw,default_soc_pct,weather_type,ambient_temp_C,hvac_mode,hvac_power_kw
+2026-08-28,99584568,ASSIGNED,VOLVO_03,3호차 (Volvo FH),5,10.0,50.0,16500.0,16550.0,85.0,50.0,23500,8.5,460,350,90,cold,-8.3,HEATING,4.73
+2026-08-28,85987548,ASSIGNED,VOLVO_04,4호차 (Volvo FH),16,10.0,160.0,16500.0,16660.0,60.0,160.0,23500,8.6,460,350,90,normal,20.5,OFF,0.0
+2026-08-29,11111111,ASSIGNED,VOLVO_06,6호차 (Volvo FH),6,10.0,60.0,16500.0,16560.0,60.0,60.0,23500,9.2,460,350,90,normal,16.3,OFF,0.0
