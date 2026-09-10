@@ -134,16 +134,30 @@ E_car/
 # 1. 의존성 설치
 uv sync
 
-# 2. 에너지 모델 학습 (models/energy_model.joblib 생성)
-uv run jupyter nbconvert --to notebook --execute model_training.ipynb
-
-# 3. 서비스 실행
+# 2. 서비스 실행 (반드시 streamlit run - python app/app.py 아님)
 uv run streamlit run app/app.py
 ```
 
-`.streamlit/config.toml`에 `headless = false`, 포트 `8501`을 설정해 두어
-실행하면 브라우저가 `http://localhost:8501`을 자동으로 연다.
-`app/app.py`는 `models/energy_model.joblib`가 없으면 최초 실행 시 직접 학습해 저장한다.
+pip를 쓴다면:
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -e .
+streamlit run app/app.py
+```
+
+**VS Code에서 실행**: `Terminal → New Terminal` 에서 위 명령을 입력한다. `F5`(디버그
+실행)로는 Streamlit 앱이 뜨지 않는다.
+
+### 실행 시 주의
+
+- **반드시 `streamlit run app/app.py`** 로 실행한다. `python app/app.py` 로 직접 실행하면
+  웹 서버가 뜨지 않고 `missing ScriptRunContext! ... running in bare mode` 경고만 출력되고 끝난다.
+- `.streamlit/config.toml`에 `headless = false`, 포트 `8501`을 설정해 두어 실행하면
+  브라우저가 `http://localhost:8501`을 자동으로 연다. 안 열리면 그 주소를 직접 입력한다.
+  종료는 `Ctrl+C`.
+- `app/app.py`는 `models/energy_model.joblib`가 없으면 최초 실행 시 직접 학습해 저장한다.
+  `model_training.ipynb`로도 만들 수 있다(Jupyter 필요).
 
 ## 실행 화면
 
